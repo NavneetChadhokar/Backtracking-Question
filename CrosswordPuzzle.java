@@ -1,3 +1,13 @@
+//question : Solving Crossword Puzzle
+//puzzel :+ - +    
+//        - - -    
+//        + - +    
+//Words = "and" , "ant"
+//test case:
+//way:1         way:2
+// + a +        + a +
+// a n t        a n d
+// + d +        + t +
 public class CrosswordPuzzle {
     public static void display(char[][] arr){
         for(int i = 0; i < arr.length; i++){
